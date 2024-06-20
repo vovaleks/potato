@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 50px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0px;
+    padding: 5px;
+}
+
+header{
+    height: 400px;
+    background-color: rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+
+    background-image: url(kartofel-20200117-56-izobrazh1100h800.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 5px 20px black;
+}
+
+main{
+    height: 100%;
+    background-color: rgb(123, 255, 0);
+    color: rgb(105, 68, 13);
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.Right{
+    width: 50%;
+    text-align: center;
+}
+footer{
+    height: 150px;
+    background-color: rgba(110, 76, 12, 0.74);
+    color: brown;
+    text-align: center;
+    font-size: larger;
+}
+
+.social img{
+    width: 50px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
